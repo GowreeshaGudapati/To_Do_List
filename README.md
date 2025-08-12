@@ -1,18 +1,21 @@
 # Java Swing To-Do List Application
-A simple desktop To-Do List application built in Java Swing that allows users to add and delete tasks with a clean, minimal UI. Perfect for beginners learning Java GUI development.
+This is a Java Swing-based To-Do List application that allows users to manage their daily tasks efficiently.
+The application supports adding, deleting, marking tasks as complete (with a green check style), clearing all tasks, and saving tasks persistently in a text file.
 
 Features
-* Add Tasks – Type your task and click Add Task.
+* Add Task – Quickly add new tasks.
 
-* Delete Tasks – Select a task and click Delete Task (or press the delete button).
+* Mark as Complete  – Click a task to toggle between complete/incomplete (green text for completed).
 
-* Scrollable Task List – Tasks are displayed in a scrollable list.
+* Delete Task – Remove selected tasks from the list.
 
-* Single Selection Mode – Avoids accidental multiple deletions.
+* Clear All – Remove all tasks at once.
 
-Popup Warnings – Alerts when you try to delete without selecting a task.
+* Persistent Storage – Tasks are saved in tasks.txt and automatically loaded when the app starts.
 
 Technologies Used
-* Java (JDK 8+)
+* Java 19
 
-* Swing (Built-in Java GUI toolkit)
+* Swing (JFrame, JButton, JTextField, JCheckBox, JList)
+
+* File I/O for saving and loading tasks
